@@ -10,4 +10,4 @@ Is used by consumers and early adopters to manage contacts. These contacts are s
 
 The experiences available as part of the proof of concept (PoC) are a subset of one would envision as part of the final contacts app. Below you can see a demo script experience for the final contacts app.
 
-![](<../../../../.gitbook/assets/image (3) (1).png>)
+![Contacts app mobile experience snapshot](images/contacts-app-expereince.png)

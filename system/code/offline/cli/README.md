@@ -49,13 +49,13 @@ idbox interactive
 // >> connection get --summary
 // >> connection-info get name
 // >> sign --input document.json --sigining signing.json
-// >> sign verify --inout document.json --signing signing.json
+// >> sign verify --input document.json --signing signing.json
 >> exit
 ```
 
 ## Experience
 
-![Low fidelity experience of using the CLI client](<../../../../.gitbook/assets/image (3).png>)
+![Low fidelity experience of using the CLI client](images/cli-expereince.png)
 
 ## Scenarios
 
@@ -71,4 +71,3 @@ idbox interactive
 * // Early adopter verifies signed incoming files
 
 ## Notes
-

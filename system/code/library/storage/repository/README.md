@@ -6,7 +6,7 @@ This sub-layer or sub-component of the UID library is responsible for abstractin
 
 A typical repository configuration contains historical data and looks something like the below:
 
-![](<../../../../.gitbook/assets/image (5).png>)
+![Typical example of repository contents](images/example-repository.png)
 
 ### **Object types**
 
@@ -15,21 +15,21 @@ A typical repository configuration contains historical data and looks something 
 * Folder
 * File
 
-![](<../../../../.gitbook/assets/image (1).png>)
+![Repository object types](images/object-types.png)
 
 ### State
 
 Initial state of the repository
 
-![](<../../../../.gitbook/assets/image (2).png>)
+![Initial state of the repository](images/initial-state.png)
 
 State of the repository after a few changes: 1. file2.ext added 2. old folder added as "bak" folder
 
 ## Changes
 
-![](<../../../../.gitbook/assets/image (4).png>)
+![First change to the repository](images/second-state.png)
 
-![](../../../../.gitbook/assets/image.png)
+![Second change to the repository](images/third-state.png)
 
 ## Modalities
 

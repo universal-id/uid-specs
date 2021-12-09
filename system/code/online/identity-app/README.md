@@ -10,4 +10,4 @@ Is used by consumers and early adopters to manage their identities. These identi
 
 The experiences available as part of the proof of concept (PoC) are a subset of one would envision as part of the final identity app. Below you can see a demo script experience for the final identity app.
 
-![](<../../../../.gitbook/assets/image (2) (1).png>)
+![Identity app mobile experience snapshot](images/id-app-experience.png)
