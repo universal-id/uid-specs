@@ -12,31 +12,69 @@ Modalities to be supported:
   * File
   * Database (MongoDB as default or other)
 
-## Layers and sub-components
+## 🧱 Layers and sub-components
 
-* **Storage** - The layer responsible for storing identity box information, as well as performing signing and verification operations on individual information fragments. Each instance of a storage unit is logically referred to as an "id-box".
-  * **Repository** - A sub-layer of storage, this sub-component is responsible for storage and access of tamper proof Content Addressable Storage (CAS) similar to Git, but with a few additional required features. Each repository instance is logically referred to as a "box"
-* **Runtime** - The layer containing the in-memory object model that exposes higher level APIs for accessing and interacting with the stored identity box. The objects in this layer can be bound to XAML views as models, and these objects can also be accessed by communication protocols and other coordination mechanisms.
-* **Communication** - This layer is built on top of libp2p and contains the sub-components for each protocol communication protocol including Sync, Interchange, Replication and Beacon.
-* **Interactive** - This layer deals with secure interactions with users as well as machine agents for the purposes of signing and securing interactions. It performs most if not all of the signing activity at the highest level.
-* **UI controls** (Out of scope) - Common XAML UI components to be re-used by all apps built on top of the platform. These include controls such as identity view/update, identity selection, identity information view/update, app connection agreement, contact view/update, privacy agreement, etc.
+* **💾 Storage** - The layer responsible for storing identity box information, as well as performing signing and verification operations on individual information fragments. Each instance of a storage unit is logically referred to as an "id-box".
+* **🗄 Repository** - A sub-layer of storage, this sub-component is responsible for storage and access of tamper proof Content Addressable Storage (CAS) similar to Git, but with a few additional required features. Each repository instance is logically referred to as a "box"
+* **🏃Runtime** - The layer containing the in-memory object model that exposes higher level APIs for accessing and interacting with the stored identity box. The objects in this layer can be bound to XAML views as models, and these objects can also be accessed by communication protocols and other coordination mechanisms.
+* **🗣 Communication** - This layer is built on top of LibP2p and contains the sub-components for each protocol communication protocol including Sync, Interchange, Replication and Beacon.
+* **🤳 Interactive** - This layer deals with secure interactions with users as well as machine agents for the purposes of signing and securing interactions. It performs most if not all of the signing activity at the highest level.
+* **🎛  UI controls** (Out of scope) - Common XAML UI controls representing the different parts of an identity box as exposed to the user for interaction.
 
-## Scenarios
+## 🎬 Scenarios
 
-* Developer programmatically creates an identity-box
-* Developer programmatically opens an identity box
+* Developer programmatically creates an identity-box.
+* Developer programmatically opens and initiates an identity box.
+* Developer programmatically creates a seed identity and sets primary identity.
+* Developer programmatically accesses (CRUD) identity information.
+* Developer programmatically starts a set of communication services.
+* Developer programmatically activates a beacon and reacts to responses.
+* Developer programmatically responds to beacon.
+* Developer programmatically sets up IdBox service to sync from operator.
+* Developer programmatically sets up IdBox connection to receive updates from source.
+* Developer programmatically invokes secure user interactions with keys.
+* Developer programmatically invokes secure agent interactions with keys.
+* Developer integrates identity UI controls into their app.
+* Developer programmatically binds identity runtime objects to UI components.
+* Developer programmatically performs operations on behalf of the identity operator.
 
-## Interfaces
+## 🎰 Functionality
 
-Functionality of the library related to managing and operating an IdBox instance are encapsulated by the IdBoxService object API. The hierarchy of IdBoxService and nested objects are as follows:
+* Runtime
+  * IdBox service - Initialization and access of all IdBox functionality from all layers
+  * IdBox runtime objects - Runtime access to IdBox and Identity objects
+    * IdBox, Identity and Connection objects - Implementation at various levels
+  * Change propagation - Enabling binding to runtime objects where changes are propagated
+* Storage
+  * Repository (Box) -&#x20;
+    * Setup and initiation -&#x20;
+    * Current and historical access - Updates, deletes and history navigation
+    * Signature tags - To be used for signing and verification operations
+  * IdBox information access - Creation, updates and reads
+  * Identity information access - Creation, updates, deletes and reads
+  * Connection information access -&#x20;
+* Communication
+  * Setup and initiation - Starting of communication infrastructure using LibP2p functionality
+  * Beacon protocol -&#x20;
+  * Sync protocol -&#x20;
+  * Interchange protocol -&#x20;
+* Interactive
+  * User key signing -&#x20;
+    * CLI interface -&#x20;
+    * Native app interface -&#x20;
+  * Agent key signing -&#x20;
+
+## 📺 Interfaces
+
+Library functionality around managing and operating an IdBox instance are encapsulated by the IdBoxService object API. The hierarchy of IdBoxService and nested objects are as follows:
 
 * IdBoxService
   * Storage: IdBoxStorage
-    * FileRepository
+    * Repository: FileRepository
   * Communication: CommunicationService
-    * LibP2pSwarm
-  * // Runtime: IdBoxRuntime
-  * // Interaction: IdBoxInteractionService
+    * Swarm: LibP2p.Swarm
+  * Runtime: IdBoxRuntime
+  * Interaction: IdBoxInteractionService
 
 The interface to service objects are as follows
 

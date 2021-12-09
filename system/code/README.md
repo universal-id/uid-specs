@@ -2,6 +2,12 @@
 
 Here we detail the implementation details at this Proof of Concept (PoC) stage. Definition and specification of PoC is primarily driven by the Universal Identity non-profit organization in order to shape an outline of an initial set of solutions, products, and protocols, as well as to prove out the technical feasibility of the greater Universal Identity vision. The details appearing here will be directly usable by all contributors including those from the non-profit organizations, community volunteers, project grantees, grant consortium members or supporters in other capacity.
 
+The source code can be found here:
+
+{% embed url="https://github.com/universal-id/uid-poc" %}
+Universal Identity PoC project source code
+{% endembed %}
+
 ## 🎯 Goals
 
 * Mitigating technical risks of the Universal Identity system, specifically for its offline and online modes of operation which are more novel.
