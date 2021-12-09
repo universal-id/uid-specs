@@ -1,6 +1,6 @@
 # 📖 Stories
 
-Stories, aka Demo scripts, are simplified end-to-end scenarios demonstrating a user's experience from start to end of well-known tasks, within a well known context. It is usually targeted to a specific sub-audience with a particular perspective and points of reference.
+Stories, aka **demo scripts**, are simplified end-to-end scenarios demonstrating a user's experience from start to end of well-known tasks, within a well known context. It is usually targeted to a specific sub-audience with a particular perspective and points of reference. Demo scripts provide an effective medium for communicating the end-to-end set of steps and usage details that products and solutions can offer.
 
 ## 👩🏻 Consumer journey
 
@@ -10,7 +10,7 @@ The story is of a user who discovers and downloads an identity for the first tim
 
 Experience:
 
-![Customer journey demo script experience](../stories/images/cconsumer-demo-script.png)
+![Customer journey demo script experience](../../stories/images/cconsumer-demo-script.png)
 
 Dimensions used:
 
@@ -65,7 +65,7 @@ This generally tells the story of a user who discovers a public blockchain money
 
 Experience:
 
-![Crypto app demo script experience](../stories/images/crypto-app-demo-script.png)
+![Crypto app demo script experience](../../stories/images/crypto-app-demo-script.png)
 
 Dimensions used:
 
@@ -140,7 +140,7 @@ This generally tells the story of a consumer who discovers a contacts app for th
 
 Experience:
 
-![Contacts app demo script experience](../stories/images/contacts-app-demo-script.png)
+![Contacts app demo script experience](../../stories/images/contacts-app-demo-script.png)
 
 Dimensions used:
 
@@ -265,7 +265,7 @@ This generally tells the story of a consumer who discovers a vertical app (eg Ai
 
 Experience:
 
-![App login demo script](../stories/images/app-login-demo-script.png)
+![App login demo script](../../stories/images/app-login-demo-script.png)
 
 Dimensions used:
 
@@ -330,7 +330,7 @@ Dimensions used:
 
 Experience:
 
-![Identity app demo script experience](../stories/images/identity-app-demo-script.png)
+![Identity app demo script experience](../../stories/images/identity-app-demo-script.png)
 
 Steps:
 

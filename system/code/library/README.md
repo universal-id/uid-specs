@@ -1,4 +1,4 @@
-# UID library
+# 📚 UID library
 
 General purpose libraries, containing key UID functionality, for all layers of the stack, are written for each technology stack such as .NET Core 6, to be used in all modalities including on-device app and back end services.
 
@@ -25,8 +25,6 @@ Modalities to be supported:
 
 * Developer programmatically creates an identity-box
 * Developer programmatically opens an identity box
-
-
 
 ## Interfaces
 

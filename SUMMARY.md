@@ -1,6 +1,6 @@
 # Table of contents
 
-* [📝 PoC specs](README.md)
+* [PoC specs](README.md)
 * [🧠 Concepts](concepts/README.md)
   * [🌲 Data taxonomy](concepts/data-taxonomy.md)
   * [✍ Data agreement](concepts/data-agreement.md)
@@ -20,7 +20,7 @@
   * [🔌 Offline](system/protocol/offline.md)
 * [🔐 Security](system/security/README.md)
 * [🏗 Implementation](system/code/README.md)
-  * [📚 Library](system/code/library/README.md)
+  * [📚 UID library](system/code/library/README.md)
     * [🗃 Storage](system/code/library/storage/README.md)
     * [🗄 Repository](system/code/library/repository/README.md)
     * [🗣 Communication](system/code/library/communication.md)
