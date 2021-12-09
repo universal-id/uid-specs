@@ -1,4 +1,4 @@
-# Concepts
+# 🧠 Concepts
 
-- Privacy
-- Security
+* Privacy
+* Security

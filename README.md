@@ -8,7 +8,7 @@ The Universal Identity specs side contains organized information specifying the 
 
 ## 🌳 Contents
 
-* [**📖 Stories**](stories/) aka demo scripts - Describe simplified end-to-end scenarios that capture a demonstratable set of features in form of a simple story.
-* [**📱 Experiences**](experiences/) - The graphical interfaces for human interactions that work with the Universal Identity protocol.
+* [**📖 Stories**](users/stories.md) aka demo scripts - Describe simplified end-to-end scenarios that capture a demonstratable set of features in form of a simple story.
+* [**📱 Experiences**](users/experiences.md) - The graphical interfaces for human interactions that work with the Universal Identity protocol.
 * [**🧠 Concepts**](concepts/) - Common concepts required to understand more specialized features of the Universal Identity protocol.
-* [**📜 Protocol**](protocol/) - The spectification for the Universal Identity software protocol, and the bulk of this specs site.
+* [**📜 Protocol**](system/protocol/) - The spectification for the Universal Identity software protocol, and the bulk of this specs site.

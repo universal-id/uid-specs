@@ -18,7 +18,7 @@ Here we detail the implementation details at this Proof of Concept (PoC) stage. 
 * 👥 Contacts app - Modes: Online
 * 🆔 Identity app - Modes: Online
 * 📚 UID library - Modes: Offline, online, on-chain
-* ⛓  Blockchain contracts - Modes: on-chain
+* ⛓ Blockchain contracts - Modes: on-chain
 
 ### Components
 
@@ -48,7 +48,7 @@ Corresponds 1-to-1 with Modes of operation:
 
 * 🌍 On-chain - for Public entity identities
 * 📡 Online - for Consumer identities
-* 🕶  Offline - for Advanced identities
+* 🕶 Offline - for Advanced identities
 
 ## 💪 Use cases
 
@@ -91,11 +91,11 @@ idbox box open file://folder/idbox --interactive --start-service interconnect
 >> exit
 ```
 
-![Peer-to-peer offline identity connection](images/cli-program.png)
+![Peer-to-peer offline identity connection](../code/images/cli-program.png)
 
 Below diagram shows the interactions between two users and their P2P clients resulting in formation of an offline identity connection.
 
-![Peer-to-peer offline identity connection](images/offline-e2e-interaction.png)
+![Peer-to-peer offline identity connection](../code/images/offline-e2e-interaction.png)
 
 ### Consumer online
 
@@ -121,17 +121,17 @@ Demo script:
 
 The diagram below shows the general order of demo screens if they were run on a mobile phone:
 
-![](images/online-app-experience.png)
+![](../code/images/online-app-experience.png)
 
 The diagram below shows the interaction between a user's online identity and the app they are trying to log into, along with the various distributed components involved.
 
-![Online login end-to-end scenario](images/online-e2e-interaction.png)
+![Online login end-to-end scenario](../code/images/online-e2e-interaction.png)
 
 ## Common component
 
 Across the various scenarios and architectures, the core of an identity component is responsible for keeping track of a user or agent's identity, as well as its connections. As such a common identity micro-service component will be used at each endpoint that will perform a number of common functions, and will have a number of common sub-components.
 
-![Identity micro-service components](images/common-component.png)
+![Identity micro-service components](../code/images/common-component.png)
 
 ### UID Library
 

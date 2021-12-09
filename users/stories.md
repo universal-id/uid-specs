@@ -1,4 +1,4 @@
-# Stories
+# 📖 Stories
 
 Stories, aka Demo scripts, are simplified end-to-end scenarios demonstrating a user's experience from start to end of well-known tasks, within a well known context. It is usually targeted to a specific sub-audience with a particular perspective and points of reference.
 
@@ -10,58 +10,51 @@ The story is of a user who discovers and downloads an identity for the first tim
 
 Experience:
 
-![Customer journey demo script experience][cconsumer-demo-script]
-
-[cconsumer-demo-script]: images/cconsumer-demo-script.png
+![Customer journey demo script experience](../stories/images/cconsumer-demo-script.png)
 
 Dimensions used:
 
-- 🧬 App types: Native apps on iOS
-- 📲 App-to-app interaction: Identity app redirect and back, online web connection through QR
-- 📱 Identity app: Existing online app - ⚙️ Operation: Online operator
-- 🙍 Identity: Newly created and existing
-- 🛡 Guardianship: None
-- 🔐 Security level: 2 (order of $10K)
-- 👤 Identity type: Social circles, commercial
-- 👥 Multi-identity: Different identities for contacts and login
+* 🧬 App types: Native apps on iOS
+* 📲 App-to-app interaction: Identity app redirect and back, online web connection through QR
+* 📱 Identity app: Existing online app - ⚙️ Operation: Online operator
+* 🙍 Identity: Newly created and existing
+* 🛡 Guardianship: None
+* 🔐 Security level: 2 (order of $10K)
+* 👤 Identity type: Social circles, commercial
+* 👥 Multi-identity: Different identities for contacts and login
 
 Steps:
 
 1. Identity app install and opening
    1. User navigates to a specific identity app
-   3. User downloads the app to device
-   4. User opens the app
+   2. User downloads the app to device
+   3. User opens the app
 2. App set up
    1. App initiates identity set up
    2. User select the default set up for a new identity box (with circles for friends & family, acquaintances, commerce identities, and public identities)
    3. User enters their core identity information (name, phone, email, address, Twitter, Facebook, LinkedIn, etc.)
 3. Contacts app install and opening
    1. User navigates to a specific contacts app
-   3. User downloads the app to device
-   4. User opens the app
-2. Contants app set up and redirect
+   2. User downloads the app to device
+   3. User opens the app
+4. Contants app set up and redirect
    1. User selects default preferences to use existing identity app
    2. User is redirceted to identity app
    3. User selects identity box and identities
-   4. User agrees with contact app's terms of use 
-   2. User is redirected to the contacts app with all contacts available
+   4. User agrees with contact app's terms of use
+   5. User is redirected to the contacts app with all contacts available
 5. Connecting with existing contact
    1. User initiates a open connection
    2. User sends someone they know a link to their open connection
    3. The other user confirms connection and this user accepts.
    4. User is redirected to and can see new connection
-1. Discovery, install and opening
+6. Discovery, install and opening
    1. User discover an identity app online
    2. User clicks App Store icon to download
    3. User downloads the app to device
    4. User opens the app
-2. Vertical app set up - existing identity
-   2. User chooses to connect to existing identity app on device and is redirected
-   3. User selects a new commerce identity
-   4. User completes agreements including privacy preferences
-   5. Identity app redirects back to the app
-   6. User is shown that the vertical app is ready
-4. Vertical app usage
+7. Vertical app set up - existing identity 2. User chooses to connect to existing identity app on device and is redirected 3. User selects a new commerce identity 4. User completes agreements including privacy preferences 5. Identity app redirects back to the app 6. User is shown that the vertical app is ready
+8. Vertical app usage
    1. ...
 
 ## 💸 Crypto app
@@ -72,21 +65,19 @@ This generally tells the story of a user who discovers a public blockchain money
 
 Experience:
 
-![Crypto app demo script experience][crypto-app-demo-script]
-
-[crypto-app-demo-script]: images/crypto-app-demo-script.png
+![Crypto app demo script experience](../stories/images/crypto-app-demo-script.png)
 
 Dimensions used:
 
-- 🧬 App type: Native app on iOS
-- 📲 App-to-app interaction: Identity app redirect and back
-- 📱 Identity app: Existing online app - ⚙️ Operation: Online operator
-- 🙍 Identity: Newly created
-- 🛡 Guardianship: None
-- 🔐 Security level: 2 (order of $10K)
-- 👤 Identity type: Pseudonymous
-- 👥 Multi-identity: Same identity used for app connection and blockchain account
-- ⛓ Public blockchain: Ethereum L2 (Arbitrum)
+* 🧬 App type: Native app on iOS
+* 📲 App-to-app interaction: Identity app redirect and back
+* 📱 Identity app: Existing online app - ⚙️ Operation: Online operator
+* 🙍 Identity: Newly created
+* 🛡 Guardianship: None
+* 🔐 Security level: 2 (order of $10K)
+* 👤 Identity type: Pseudonymous
+* 👥 Multi-identity: Same identity used for app connection and blockchain account
+* ⛓ Public blockchain: Ethereum L2 (Arbitrum)
 
 Steps:
 
@@ -130,16 +121,16 @@ Steps:
 
 Dimensions possible:
 
-- 🧬 App type: Web app, Native app on Android
-- 📲 App-to-app interaction: None (temporary identity used), web identity app redirect, online web connection through QR, offline QR interaction
-- 📱 Identity app: Existing offline app, new app download/setup, web app
-- 🙍 Identity: Existing identity
-- 🛡 Guardianship: Identity provider, social, or combination
-- ⚙️ Operation: Offline operation
-- 🔐 Security: 1 (order of $100), 3 (order of $1M)
-- 👤 Identity type: Public, transactional, etc
-- 👥 Multi-identity: Different identities used for app connection and blockchain account
-- ⛓ Public blockchain: Bitcoin, Ethereum, Ethereum L2 (Arbitrum, Optimism)
+* 🧬 App type: Web app, Native app on Android
+* 📲 App-to-app interaction: None (temporary identity used), web identity app redirect, online web connection through QR, offline QR interaction
+* 📱 Identity app: Existing offline app, new app download/setup, web app
+* 🙍 Identity: Existing identity
+* 🛡 Guardianship: Identity provider, social, or combination
+* ⚙️ Operation: Offline operation
+* 🔐 Security: 1 (order of $100), 3 (order of $1M)
+* 👤 Identity type: Public, transactional, etc
+* 👥 Multi-identity: Different identities used for app connection and blockchain account
+* ⛓ Public blockchain: Bitcoin, Ethereum, Ethereum L2 (Arbitrum, Optimism)
 
 ## 📇 Contacts app
 
@@ -149,20 +140,18 @@ This generally tells the story of a consumer who discovers a contacts app for th
 
 Experience:
 
-![Contacts app demo script experience][contacts-app-demo-script]
-
-[contacts-app-demo-script]: images/contacts-app-demo-script.png
+![Contacts app demo script experience](../stories/images/contacts-app-demo-script.png)
 
 Dimensions used:
 
-- 🧬 App type: Native app on iOS
-- 📲 App-to-app interaction: Identity app redirect and back
-- 📱 Identity app: Existing online app - ⚙️ Operation: Online operator
-- 🙍 Identity: Existing social identity
-- 🛡 Guardianship: None
-- 🔐 Security level: 2 (order of $10K)
-- 👤 Identity type: Acquaintance
-- 📡 Device-to-device communication: QR code, URI link
+* 🧬 App type: Native app on iOS
+* 📲 App-to-app interaction: Identity app redirect and back
+* 📱 Identity app: Existing online app - ⚙️ Operation: Online operator
+* 🙍 Identity: Existing social identity
+* 🛡 Guardianship: None
+* 🔐 Security level: 2 (order of $10K)
+* 👤 Identity type: Acquaintance
+* 📡 Device-to-device communication: QR code, URI link
 
 Steps:
 
@@ -203,15 +192,15 @@ Steps:
 
 ## 🕶 Privacy
 
-- Setting commercial connection defaults
-- Setting contacts defaults - Friends and family, acquaintances
-  - Example: Acquaintances: Freely share contact with others - Friends & family: Share contact with permission - Do not store home address, always ask, automated permission - Commercial, forget my identity and related information
-- New commercial connection
-  - Agreeing to terms with privacy exceptions
-  - Immediate feedback about limited (or no) functionality
-  - Minimal adjustment made, functionality level updated
-  - Finalize agreement and redirect back to app
-- Last chance for app to respond to selection
+* Setting commercial connection defaults
+* Setting contacts defaults - Friends and family, acquaintances
+  * Example: Acquaintances: Freely share contact with others - Friends & family: Share contact with permission - Do not store home address, always ask, automated permission - Commercial, forget my identity and related information
+* New commercial connection
+  * Agreeing to terms with privacy exceptions
+  * Immediate feedback about limited (or no) functionality
+  * Minimal adjustment made, functionality level updated
+  * Finalize agreement and redirect back to app
+* Last chance for app to respond to selection
 
 Is the most simplified and likely scenario of using a mobile identity app to set up and use privacy preferences, told from the perspective of a regular consumer. Here we are making an assumption that apps will offer a standard-based app data privacy label, as well as a digitally signable usage terms agreement, which will allow consumers to express their privacy preferences as part of connecting to apps.
 
@@ -221,24 +210,24 @@ It could also contain the story of a consumer who sets up different preferences 
 
 Dimensions used:
 
-- 🧬 App type: Native app on iOS
-- 📲 App-to-app interaction: Identity app redirect and back
-- 📱 Identity app: Existing online app - ⚙️ Operation: Online operator
-- 🙍 Identity: Existing identity
-- 🔐 Security level: 2 (order of $10K)
-- 👤 Identity type: acquaintances, friends & family
-- 👥 Multi-identity: Identities for acquaintance circle and friends and family circle
+* 🧬 App type: Native app on iOS
+* 📲 App-to-app interaction: Identity app redirect and back
+* 📱 Identity app: Existing online app - ⚙️ Operation: Online operator
+* 🙍 Identity: Existing identity
+* 🔐 Security level: 2 (order of $10K)
+* 👤 Identity type: acquaintances, friends & family
+* 👥 Multi-identity: Identities for acquaintance circle and friends and family circle
 
 Steps:
 
 1. Setting up privacy preferences
    1. User opens their existing identity app
-   1. User goes to privacy preferences section
-   1. User goes to commercial privacy settings
-   1. User sets up new commercial connections to use masked identities, with name only (and email aliases from list)
-   1. User sets up privacy agreement preferences to default (no tracking, no advertising, no sensitive data collection, etc)
-   1. User goes to the identities section
-   1. User confirms friends and family identity is isolated from acquaintances but not the other way
+   2. User goes to privacy preferences section
+   3. User goes to commercial privacy settings
+   4. User sets up new commercial connections to use masked identities, with name only (and email aliases from list)
+   5. User sets up privacy agreement preferences to default (no tracking, no advertising, no sensitive data collection, etc)
+   6. User goes to the identities section
+   7. User confirms friends and family identity is isolated from acquaintances but not the other way
 2. New ad-supported free app discovery, install and opening
    1. User discover a new ad-supported free app online
    2. User clicks App Store icon to download
@@ -276,20 +265,18 @@ This generally tells the story of a consumer who discovers a vertical app (eg Ai
 
 Experience:
 
-![App login demo script][app-login-demo-script]
-
-[app-login-demo-script]: images/app-login-demo-script.png
+![App login demo script](../stories/images/app-login-demo-script.png)
 
 Dimensions used:
 
-- 🧬 App type: Native app on iOS
-- 📲 App-to-app interaction: Identity app redirect and back
-- 📱 Identity app: Existing online app - ⚙️ Operation: Online operator
-- 🙍 Identity: Existing social identity
-- 🛡 Guardianship: None
-- 🔐 Security level: 2 (order of $10K)
-- 👤 Identity type: Acquaintance
-- 📡 Device-to-device communication: QR code, URI link
+* 🧬 App type: Native app on iOS
+* 📲 App-to-app interaction: Identity app redirect and back
+* 📱 Identity app: Existing online app - ⚙️ Operation: Online operator
+* 🙍 Identity: Existing social identity
+* 🛡 Guardianship: None
+* 🔐 Security level: 2 (order of $10K)
+* 👤 Identity type: Acquaintance
+* 📡 Device-to-device communication: QR code, URI link
 
 Steps:
 
@@ -323,29 +310,27 @@ Steps:
 
 ## 🆔 ID app
 
-- Setting up identity box using the ID app
-- Using ID app as 2nd factor for higher security operation
-- Using ID app to set up second device ID app
-- Using ID app to set up a guardian contact
-- Using ID app tp setup identity operator service as guardian
-- ID native app [Identity perspective] - Using one's identity to sign data such as an agreement
+* Setting up identity box using the ID app
+* Using ID app as 2nd factor for higher security operation
+* Using ID app to set up second device ID app
+* Using ID app to set up a guardian contact
+* Using ID app tp setup identity operator service as guardian
+* ID native app \[Identity perspective] - Using one's identity to sign data such as an agreement
 
 Dimensions used:
 
-- 🧬 App type: Native app on iOS
-- 📲 App-to-app interaction: Identity app redirect and back
-- 📱 Identity app: Existing online app - ⚙️ Operation: Online operator
-- 🙍 Identity: Existing social identity
-- 🛡 Guardianship: None
-- 🔐 Security level: 2 (order of $10K)
-- 👤 Identity type: Acquaintance
-- 📡 Device-to-device communication: QR code, URI link
+* 🧬 App type: Native app on iOS
+* 📲 App-to-app interaction: Identity app redirect and back
+* 📱 Identity app: Existing online app - ⚙️ Operation: Online operator
+* 🙍 Identity: Existing social identity
+* 🛡 Guardianship: None
+* 🔐 Security level: 2 (order of $10K)
+* 👤 Identity type: Acquaintance
+* 📡 Device-to-device communication: QR code, URI link
 
 Experience:
 
-![Identity app demo script experience][identity-app-demo-script]
-
-[identity-app-demo-script]: images/identity-app-demo-script.png
+![Identity app demo script experience](../stories/images/identity-app-demo-script.png)
 
 Steps:
 
@@ -389,35 +374,34 @@ Steps:
 
 Other stories (demo scripts) include:
 
-- ⚙️ Online operation
-- 🌐 Web 2.0 transition
-  - Web 2.0 native app login [Web 2.0 perspective] - ID app redirect, new identity, existing operator and app, bootstrap from UID core identity, operator guardianship
-    - Web login
-    - Temporary login - no ID app
-    - Existing identity
-    - New operator/app download and setup
-    - Offline - no operator (self-operated) - manual self-guardianship using second device
-    - Bootstrap from Web 2.0 Id. Provider - eg. Google, Facebook
-    - Social guardianship, or combination
-- 🔌 Offline
-- 🌍 Public
-- 🩹 Recovery
-  - Guardianship and recovery [Recovery perspective]
-- 👥 Multi-identity
-  - focus on difference in expression per identity
-Some focus on anonymous and pseudonymous identities
-- 🧑‍💼 ID management
-  - ID web app, Identity organization, search and maintenance [management perspective] -
-- ☑️ Consumer choice
-  - ID operator and app switch [Consumer choice perspective] -
-- 🏁 Onboarding
-  - First time app and operator setup [Onboarding perspective] - as part of new app signup
-    - One off - not as part of other app signup
-- 🗂 Data app (Files)
-- 💻 Web apps
-- 🧰 Breadth
-  - Online ID-box for use with friends, family, acquaintances, and the public
-  - Public pseudonymous blockchain identity for use with crypto tokens and NFTs
-  - Pseudonymous or minimally identified online identities used for aliases, one-off private tasks and purchases
-  - Private offline identities for sensitive tasks
-  - Public official identity with social media and public blockchain presence
+* ⚙️ Online operation
+* 🌐 Web 2.0 transition
+  * Web 2.0 native app login \[Web 2.0 perspective] - ID app redirect, new identity, existing operator and app, bootstrap from UID core identity, operator guardianship
+    * Web login
+    * Temporary login - no ID app
+    * Existing identity
+    * New operator/app download and setup
+    * Offline - no operator (self-operated) - manual self-guardianship using second device
+    * Bootstrap from Web 2.0 Id. Provider - eg. Google, Facebook
+    * Social guardianship, or combination
+* 🔌 Offline
+* 🌍 Public
+* 🩹 Recovery
+  * Guardianship and recovery \[Recovery perspective]
+* 👥 Multi-identity
+  * focus on difference in expression per identity Some focus on anonymous and pseudonymous identities
+* 🧑‍💼 ID management
+  * ID web app, Identity organization, search and maintenance \[management perspective] -
+* ☑️ Consumer choice
+  * ID operator and app switch \[Consumer choice perspective] -
+* 🏁 Onboarding
+  * First time app and operator setup \[Onboarding perspective] - as part of new app signup
+    * One off - not as part of other app signup
+* 🗂 Data app (Files)
+* 💻 Web apps
+* 🧰 Breadth
+  * Online ID-box for use with friends, family, acquaintances, and the public
+  * Public pseudonymous blockchain identity for use with crypto tokens and NFTs
+  * Pseudonymous or minimally identified online identities used for aliases, one-off private tasks and purchases
+  * Private offline identities for sensitive tasks
+  * Public official identity with social media and public blockchain presence

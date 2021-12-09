@@ -1,16 +1,22 @@
 # Table of contents
 
 * [PoC UID specifications](README.md)
-* [📖 Stories](stories/README.md)
-* [📱 Experiences](experiences/README.md)
-* [📜 Protocol](protocol/README.md)
-  * [🫀 Core](protocol/core/README.md)
-  * [⛓ On-chain](protocol/on-chain.md)
-  * [📡 Online](protocol/online/README.md)
-  * [🔌 Offline](protocol/offline/README.md)
 * [🧠 Concepts](concepts/README.md)
   * [🌲 Data taxonomy](concepts/data-taxonomy.md)
-  * [✍️ Data agreement](concepts/data-agreement.md)
+  * [✍ Data agreement](concepts/data-agreement.md)
   * [🔐 Security](concepts/security.md)
-* [🔐 Security](security/README.md)
-* [🏗 Implementation](code/README.md)
+
+## 👩 USERS
+
+* [📖 Stories](users/stories.md)
+* [📱 Experiences](users/experiences.md)
+
+## ⚙ SYSTEM
+
+* [📜 Protocol](system/protocol/README.md)
+  * [🫀 Core](system/protocol/core.md)
+  * [⛓ On-chain](system/protocol/on-chain.md)
+  * [📡 Online](system/protocol/online.md)
+  * [🔌 Offline](system/protocol/offline.md)
+* [🔐 Security](system/security.md)
+* [🏗 Implementation](system/code.md)
