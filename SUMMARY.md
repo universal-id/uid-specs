@@ -6,7 +6,7 @@
   * [✍ Data agreement](concepts/data-agreement.md)
   * [🔐 Security](concepts/security.md)
 
-## 👩 USER
+## 👩 USERS
 
 * [📖 Stories](user/stories/README.md)
 * [📱 Experiences](user/experiences/README.md)
@@ -22,7 +22,7 @@
 * [🏗 Implementation](system/code/README.md)
   * [📚 Library](system/code/library/README.md)
     * [🗃 Storage](system/code/library/storage/README.md)
-      * [🗄 Repository](system/code/library/storage/repository.md)
+    * [🗄 Repository](system/code/library/repository/README.md)
     * [🗣 Communication](system/code/library/communication.md)
   * [🔌 Offline](system/code/offline/README.md)
     * [💻 CLI program](system/code/offline/cli/README.md)
