@@ -88,8 +88,8 @@ idbox interactive
 
 ## 📺 Experience
 
-![Low fidelity experience of using the CLI client](images/cli-expereince.png)
-
-##
+![](images/console.png)
+![Low fidelity experience of using the CLI client](images/console-second-part.png)
+![Low fidelity experience of using the CLI client - second user](images/console-second-part.png)
 
 ## Notes
