@@ -1,8 +1,8 @@
-# Storage
+# 💾 Storage
 
 This is the top encompassing layer for storage which subsumes/contains the repository layer. The interface to this layer has logic specific to an identity box (IdBox) such as with objects like identity, connection etc. The layer is responsible for serializing/deserializing against the repository (box) layer, as well as a set of business logic specific to the operation of IdBox objects.
 
-## Scenarios
+## 🎬 Scenarios
 
 * Developer programmatically creates and identity box (IdBox).
 * Developer programmatically creates a seed identity as the first primary identity.
@@ -15,7 +15,7 @@ This is the top encompassing layer for storage which subsumes/contains the repos
 * Developer programmatically records signature information of a given change to an identity
 * Developer programmatically verifies signature of a given change to an identity
 
-## Interfaces
+## 🗜 Interfaces
 
 The hierarchy of storage objects are as follows:
 
@@ -57,7 +57,6 @@ public class KeyStorage // : IJsonSerializable<KeyStorage> Key as part of identi
     // public void FromJson(JObject documentJson) {} Key as part of identity
     // public JObject ToJson() {} Key as part of identity
 }
-
 ```
 
 Sample JSON data for `IdBoxStorage` as `id-box.json`:

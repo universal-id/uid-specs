@@ -22,8 +22,8 @@ Universal Identity PoC project source code
 
 The project will generally be executed in the following steps:
 
-* Pass 1 - End-to-end components, no security - Getting all the components working end-to-end with minimal functionality
-* Pass 2 - Full security -  Incorporating proper security including full cryptographic signing and verification of identities and communication at all stages.
+* **Pass 1** - End-to-end components, no security - Getting all the components working end-to-end with minimal functionality
+* **Pass 2** - Full security -  Incorporating proper security including full cryptographic signing and verification of identities and communication at all stages.
 
 ## 🧩 Solutions
 
@@ -93,8 +93,9 @@ idbox box open file://folder/idbox --interactive --start-service interconnect
 >> ids get-primary
 >> id select 0xa1b2c3…d4e5f6
 >> id get --summary
+>> id-info get-keys
 >> id-info set name --value some-name
->> connect beacon
+>> connect activate-beacon
 [User2] >> connect respond http://192.168.0.15/beacon/j4k5l6l7o8
 >> connection select 0xg7h8i9…j0k1l2
 >> connection get --summary
