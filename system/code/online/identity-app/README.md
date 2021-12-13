@@ -18,7 +18,15 @@ Consumer persona under Personas page of the Industry map
 
 ## 🎰 Functionality
 
-
+* IdBox and identity set up
+* App login
+  * Code-based app interaction
+    * Online - Public URI-based code exchange
+    * // Offline - Full code exchange
+  * // Desktop app redirect
+  * // Mobile app redirect
+* Crypto transaction signature
+* // Privacy preferences
 
 ## 📺 Experiences
 

@@ -1,6 +1,6 @@
 # 📇 Contacts app
 
-Online identity app showcasing login using identity app, as well as delegated permissions for managing contacts.
+Online contacts app showcasing connection features, login using identity app, as well as delegated permissions for managing contacts.
 
 ## 👩🏻 Users
 
