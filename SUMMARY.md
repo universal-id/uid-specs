@@ -23,7 +23,7 @@
   * [📚 UID library](system/code/library/README.md)
     * [💾 Storage](system/code/library/storage/README.md)
     * [🗄 Repository](system/code/library/repository/README.md)
-    * [🗣 Communication](system/code/library/communication.md)
+    * [🗣 Communication](system/code/library/communication/README.md)
   * [🔌 Offline](system/code/offline/README.md)
     * [💻 CLI program](system/code/offline/cli/README.md)
   * [📡 Online](system/code/online/README.md)

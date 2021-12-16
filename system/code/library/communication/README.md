@@ -38,6 +38,8 @@ The beacon protocol enables the very first connection between owners of identiti
 
 After that point, both parties can connect using the UID beacon protocol and exchange specific identifiers for their owned identities. Of course there a few security considerations, such as progressive discovery of identity through maskings and transition, as well as requirement for a second verification factor upon connection to avoid spoofing attacks.
 
+![Beacon protocol interactions](images/beacon-protocol-interaction.png)
+
 **P2p offline PoC implementation**
 
 The initial implementation of the beacon protocol for the p2p offline Proof of Concept (PoC) will use basic LAN endpoints, LAN discovery with no additional security measures. The sequence of events is as follows:
@@ -56,6 +58,8 @@ Aside from discovery and initial handshake, the interchange of identity informat
 The discovery and initial handshake work differently for online/connected use-cases and offline/p2p use cases. In the online/connected case, the identity box containing either of the identities is already well-known and reachable on a public endpoint address. In the offline case, a simpler configuration is where an offline endpoint is connecting to a public connected and online endpoint periodically to interchange information.
 
 However the more complex case is when two offline endpoints are connecting. In this case, either we have to expect presence on a common and discoverable medium such as LAN, NFC, or QR code sequence, or at least one of the clients should be listening on a known public endpoints, when online.
+
+![Interchange protocol interactions](images/interchange-protocol-interaction.png)
 
 **P2p offline PoC implementation**
 
