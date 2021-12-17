@@ -59,13 +59,14 @@ The following software components will first be specified in detail and subseque
   * **🗄 Repository** - A sub-layer of storage, this sub-component is responsible for storage and access of tamper proof Content Addressable Storage (CAS) similar to Git, but with a few additional required features. Each repository instance is logically referred to as a "box"
   * **🏃Runtime** - The layer containing the in-memory object model that exposes higher level APIs for accessing and interacting with the stored identity box. The objects in this layer can be bound to XAML views as models, and these objects can also be accessed by communication protocols and other coordination mechanisms.
   * **🗣 Communication** - This layer is built on top of LibP2p and contains the sub-components for each protocol communication protocol including Sync, Interchange, Replication and Beacon.
-  * **🤳 Interactive** - This layer deals with secure interactions with users as well as machine agents for the purposes of signing and securing interactions. It performs most if not all of the signing activity at the highest level.
+  * **🗝  Interaction** - This layer deals with secure interactions with users as well as machine agents for the purposes of signing and securing interactions. It performs most if not all of the signing activity at the highest level.
   * **🎛  UI controls** (Out of scope) - Common XAML UI controls representing the different parts of an identity box as exposed to the user for interaction.
 * **💻 CLI program** - Offline identity for peer-to-peer (p2p) operation.
 * **🆔 Identity app** - Online identity synced and backed up by identity operator service and used to interact with other apps like Contacts app.
 * **📇 Contacts app** - Online identity app showcasing login using identity app, as well as delegated permissions for managing contacts.
   * **Contacts app service** - Backing service for contacts app, which uses the same identity operator service in this specific prototype as its own backing identity service.
 * **🆔Identity operator service** - Backing service for identity app, used to backup and sync identity information as well as used to interchange connection information with another operator instance or offline identity.
+* 📑 On-chain contracts - Ethereum Virtual Machine (EVM) contracts for managing the on-chain identity sub-system and identities.
 
 ## 💪 Use cases
 
