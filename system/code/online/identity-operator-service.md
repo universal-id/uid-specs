@@ -1,2 +1,0 @@
-# 🆔 Identity operator service
-
