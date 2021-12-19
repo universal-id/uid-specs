@@ -2,6 +2,8 @@
 
 The is the multi-tenant back-end service for contacts app.
 
+This section is incomplete ...
+
 ## 🎬 Scenarios
 
 * Contacts app creates a new account on behalf of consumer
