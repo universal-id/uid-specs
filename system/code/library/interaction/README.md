@@ -20,3 +20,25 @@ This section is incomplete ... Will complete soon.
 * Native app redirect
 * Remote interaction
 * Offline interaction
+
+## 🗜 Interfaces
+
+The interaction service object will have the following interface:
+
+```
+public class InteractionService
+{
+    public InteractionService(string path) {}
+    public string Path { get; set; }
+    public void Init() {}
+    public EthKey CreateAndStoreNewKey() {}
+    public byte[] SignData(string keyIdentifier, byte[] data) {}
+} 
+```
+
+The interfaces for the beacon protocol are:
+
+```
+public class BeaconProtocol : IPeerProtocol
+{
+```

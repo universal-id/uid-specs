@@ -4,7 +4,7 @@
 * [🧠 Concepts](concepts/README.md)
   * [🌲 Data taxonomy](concepts/data-taxonomy.md)
   * [✍ Data agreement](concepts/data-agreement.md)
-  * [🔐 Security](concepts/security.md)
+  * [🔐 Security concepts](concepts/security.md)
 
 ## 👩 USERS
 

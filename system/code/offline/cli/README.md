@@ -5,7 +5,7 @@
 Early adopters and developers use the CLI client to manipulate their identity box using advanced commands and tools. They may even self-compile the application on their device platform before running it.
 
 {% embed url="https://map.universal.id/personas#early-adopter-earl-and-erica" %}
-Early adopter persona under Personas page of the Industry map&#x20;
+Early adopter persona under Personas page of the Industry map
 {% endembed %}
 
 ## 🎬 Scenarios
@@ -31,7 +31,7 @@ Early adopter persona under Personas page of the Industry map&#x20;
 
 #### Interactive commands
 
-Commands run interactively as the user inputs them, while other inputs and outputs are also available to the user. See example sample below where `>>` appears before interactive  commands and `<<` before input prompts:
+Commands run interactively as the user inputs them, while other inputs and outputs are also available to the user. See example sample below where `>>` appears before interactive commands and `<<` before input prompts:
 
 ```
 idbox interactive
@@ -90,8 +90,39 @@ idbox interactive
 
 Low fidelity experience of using the CLI program:
 
-![First part](images/console.png)
-![Second part](images/console-second-part.png)
-![Second user](images/console-second-user.png)
+![First part](images/console.png) ![Second part](images/console-second-part.png) ![Second user](images/console-second-user.png)
 
-## Notes
+## 🗜 Internal interfaces
+
+There will be a CliHandlers object that will contain all handling functionality, and can support multiple instances running in the same AppDomain:
+
+```
+public class CliHandlers
+{
+    public CliHandlers(string executionPath) {}
+    public string ExecutionPath { get; set; }
+    public State State { get; set; } // Encapsulates access to disk
+    public IdBoxService IdBoxService { get; set; } // Enables communication service hosting for interactive mode.
+    void CreateHandler(string path) {}
+    void CreateSeedIdentityHandler() {}
+    Task OpenHandlerAsync(string path, string interactive) {}
+    ...    
+} 
+```
+
+The program will then instantiate the CLI command infrastructure and redirect to a singleton CliHandlers object.
+
+```
+public class Program
+{
+    static async Task Main(string[] args)
+    {
+        // Command definitions
+        // Argument definitions, addition to commands
+        
+        await rootCommand.InvokeAsync(args);
+    }
+}
+```
+
+##
