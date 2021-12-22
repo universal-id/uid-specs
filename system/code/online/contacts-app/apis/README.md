@@ -21,26 +21,30 @@ This section is incomplete ...
 
 ## 🗜 Interfaces
 
-Service APIs for discovery and high level account operations:
+Minimal API for the Apps controller is as follows:
 
 ```
-public class DiscoveryService
+public class AppsController
 {
+    public void RegisterApp(string uniqueId);
+    public void NotifyAppEvent(AppEvent appEvent)
+}
+
+public class AppEvent
+{
+}
+
+public class AppStarted : AppEvent
+{
+    public DateTime StartedDateTime { get; set; }
 }
 ```
 
-Service APIs for IdBox, identity and connection access
+Example for the the data stored in the database for apps is as follows:
 
 ```
-public class IdBoxService
 {
-}
-```
-
-Service APIs for Beacon URI activation:
-
-```
-public class PublicUriService
-{
-}
+    "uniqueId" : "123ABC434B...DEF234798",
+    "lastLoggedIn" : "12346573" // Linux date time format
+}    
 ```

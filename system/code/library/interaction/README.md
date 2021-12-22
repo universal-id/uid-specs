@@ -35,10 +35,3 @@ public class InteractionService
     public byte[] SignData(string keyIdentifier, byte[] data) {}
 } 
 ```
-
-The interfaces for the beacon protocol are:
-
-```
-public class BeaconProtocol : IPeerProtocol
-{
-```

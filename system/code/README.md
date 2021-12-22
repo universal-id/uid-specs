@@ -65,7 +65,7 @@ The following software components will first be specified in detail and subseque
 * **🆔 Identity app** - Online identity synced and backed up by identity operator service and used to interact with other apps like Contacts app.
 * **📇 Contacts app** - Online identity app showcasing login using identity app, as well as delegated permissions for managing contacts.
   * **Contacts app service** - Backing service for contacts app, which uses the same identity operator service in this specific prototype as its own backing identity service.
-* **🆔Identity operator service** - Backing service for identity app, used to backup and sync identity information as well as used to interchange connection information with another operator instance or offline identity.
+* **⚙️ Identity operator service** - Backing service for identity app, used to backup and sync identity information as well as used to interchange connection information with another operator instance or offline identity.
 * 📑 On-chain contracts - Ethereum Virtual Machine (EVM) contracts for managing the on-chain identity sub-system and identities.
 
 ## 💪 Use cases
@@ -83,7 +83,7 @@ The following software components will first be specified in detail and subseque
 Implementing this use case requires the following components:
 
 * UID library
-* CLI client
+* CLI program
 
 Demo script:
 
